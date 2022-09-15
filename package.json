@@ -25,7 +25,8 @@
   },
   "scripts": {
     "build": "node bin/build",
-    "test": "uvu test -r esm -i collisions"
+    "test": "uvu test -r esm -i collisions",
+    "prepublishOnly": "npm run build"
   },
   "files": [
     "dist"
